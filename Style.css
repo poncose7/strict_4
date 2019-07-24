@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+*{
+	margin : 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: #2d3950;
+}
+
+
+.container{
+
+	width: 1140px;
+	margin: 0 auto;
+	padding: 30px 0px;
+}
+
+header{
+	background: #f6f9f9;
+}
+
+.banner-section{
+	background: url(Image/banner.png) no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+.banner-section h1{
+	font-size: 120px;
+	padding-top: 215px;
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.banner-section p{
+	color: #ebebec;
+    font-size: 20px;
+    margin: 30px 0;
+
+}
+.border-line{
+	border: 1px solid #15a4fa;
+	width: 50%;
+	margin: 0 auto;
+}
+.banner-btn{
+	margin-top: 70px;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	letter-spacing: 1px;
+	background: transparent;
+	padding: 15px 40px;
+	font-size: 16px;
+	margin-bottom: 100px;
+	transition: 0.5s ease-in-out;
+
+}
+.banner-btn:hover{
+	background: #15a4fa;
+	cursor: pointer;
+	}
+.banner-section .fa{
+	display: block;
+	color: #fff;
+	margin: 50px 0px;
+	font-size: 32px;
+}
+
+.about-section{
+	background: #f6f9f9;
+	padding: 35px 0px;
+}
+.about-section h2{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #2d3950;
+}
+.about-section p{
+	color: #999;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.feature-section h2{
+	font-size: 22px;
+	text-align: center;
+	color: #2d3950;
+	margin: 15px 0px 10px;
+}
+
+.feature-section p{
+	font-size: 16px;
+	text-align: center;
+	color: #999;
+}
+
+.feature-section img{
+	display: block;
+	margin: 0 auto;
+}
+
+.feature-section{
+	padding: 20px 10px;
+}
+
+.feature-item{
+	padding: 10px 21px;
+}
+
+.feature-box{
+	display: flex;
+}
+
+.portfolio-section{
+	padding: 80px 0px 115px;
+	background: #f6f9f9;
+}
+.portfolio-section h1{
+	font-size: 41px;
+	color: #2d3950;
+	margin: 5px 0px 20px;
+	text-align: center;
+
+
+}
+.portfolio-section p{
+	color: #999;
+	font-size: 16px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.portfolio-section img{
+	width: 100%;
+	height: 100%;
+}
+
+.portfolio-item{
+	margin: 10px;
+	position: relative;
+}
+
+.portfolio-box{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portfolio-item-hover{
+	position: absolute;
+	background: #2baaf6;
+	top: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+
+.portfolio-item-hover .fa{
+	margin: 115px 3px 0px;
+	color: #fff;
+	padding: 10px;
+	border: .4px solid #fff;
+	border-radius: 4px;
+}
+
+.portfolio-item:hover .portfolio-item-hover{
+	opacity: 0.8;
+}
+
+.stay-with-us{
+	padding: 50px;
+	background: #2b374b;
+	color: #fff;
+	font-size: 15px;
+}
+
+.stay-with-us h1{
+	font-size: 41px;
+	text-align: center;
+	color: #fff;
+
+}
+
+.stay-with-us p{
+	font-size: 16px;
+	text-align: center;
+	color: #6cadd2;
+	margin: 15px 0 40px;
+}
+
+.form-1{
+	display: block;
+	background: transparent;
+	border: .3px solid #828387;
+	height: 55px;
+	width: 39%;
+	margin: 20px auto;
+	font-size: 16px;
+	color: #828387;
+	border-radius: 3px;
+	padding-left: 16px;
+}
+
+.message{
+	border: 0.3px solid #828387;
+	height: 155px;
+	display: block;
+	margin: 10px auto;
+	background: transparent;
+	color: #828387;
+	font-size: 16px;
+	width: 38%;
+	border-radius: 3px;
+	text-align: initial;
+	padding: 16px;
+}
+
+.checkbox-button{
+	width: 40.3%;
+	margin: 30px auto;
+}
+
+.checkbox-button span{
+	color: #8a8e96;
+	font-weight: 700;
+}
+
+.btn{
+	float: right;
+    padding: 10px 36px;
+    border: .5px solid #15a4fa;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    transition: 0.5s ease-in-out;
+}
+
+.btn:hover{
+	background: #15a4fa;	
+}
+
+footer{
+	background: #f6f9f9;
+	padding: 30px;
+}
+
+.footer-icon{
+	float: right;
+}
+
+
+.footer-icon .fa{
+	border: 1px solid #15a4fa;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 0px 4px;
+	background: #15a4fa;
+	color: #fff;
+	cursor: pointer;
+}
+
